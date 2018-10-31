@@ -2,9 +2,21 @@
     "name": "undoc",
     "displayName": "undoc",
     "description": "An extention that detects undocumented functions/methods and generates documantation for them.",
+    "keywords": [
+        "comment-generator",
+        "documantation-generator",
+        "doc-generator",
+        "document-creation",
+        "function-documantation-generator",
+        "function-doc-generator",
+        "undocumented-functions",
+        "document-method",
+        "undocumented-class-method"
+    ],
     "version": "2.0.3",
     "publisher": "yilmaztekinozer",
     "repository": "https://github.com/oyilmaztekin/vscode-undoc",
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.28.0"
     },
