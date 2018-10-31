@@ -1,8 +1,13 @@
 {
     "name": "undoc",
     "displayName": "undoc",
+<<<<<<< HEAD
     "description": "A package that generates documantation for function",
     "version": "0.0.3",
+=======
+    "description": "An extention that detects undocumented functions/methods and generates documantation for them.",
+    "version": "2.0.3",
+>>>>>>> bd9a0b1e54143ff7dc821080f5aad43556c41ecf
     "publisher": "yilmaztekinozer",
     "repository": "https://github.com/oyilmaztekin/vscode-undoc",
     "engines": {
