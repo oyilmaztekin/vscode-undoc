@@ -18,5 +18,7 @@ An documentation generator for JavaScript functions and class methods. It detect
 
 Feel free to open issues and PRs. You can look [here](https://github.com/oyilmaztekin/vscode-undoc/blob/master/CONTRIBUTING.md) for helper documentations.
 
-##### Next Release
-Document will be create with selecting method or function
+##### TODO
+1- Create doc with selecting function or method
+2- Currying function
+3- PropTypes
