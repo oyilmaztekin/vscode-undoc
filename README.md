@@ -1,4 +1,5 @@
 # vscode-undoc
+![](./icon.png =200x)
 An documentation generator for JavaScript functions and class methods. It detects undocumented functions and class methods in your Javascript / Flow / React file and creates a documentation template above the function or method.
 
 ## Usage
