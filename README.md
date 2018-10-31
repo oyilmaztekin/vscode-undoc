@@ -5,7 +5,7 @@ An documentation generator for JavaScript functions and class methods. It detect
 
 ##### Using Command Palette (CMD/CTRL + Shift + P)
 
-`CMD + Shift + P -> undoc`
+`CMD + Shift + P -> Create Docs`
 
 #### React Example 
 ![react-example](/assets/react-example.gif)
