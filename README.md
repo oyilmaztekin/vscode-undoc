@@ -14,6 +14,8 @@ An documentation generator for JavaScript functions and class methods. It detect
 
 `CMD + Shift + P -> undoc`
 
+![react-example](https://github.com/oyilmaztekin/vscode-undoc/blob/master/assets/react-example.gif)
+
 ### Contribute 
 
 Feel free to open issues and PRs. You can look [here](https://github.com/oyilmaztekin/vscode-undoc/blob/master/CONTRIBUTING.md) for helper documentations.
