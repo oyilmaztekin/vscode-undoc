@@ -9,7 +9,7 @@
         "document-generator",
         "undocumented-functions"
     ],
-    "version": "2.0.4",
+    "version": "2.0.5",
     "publisher": "yilmaztekinozer",
     "repository": "https://github.com/oyilmaztekin/vscode-undoc",
     "icon": "icon.png",
@@ -17,6 +17,8 @@
         "vscode": "^1.28.0"
     },
     "categories": [
+        "Formatters",
+        "Snippets",
         "Other"
     ],
     "activationEvents": [
