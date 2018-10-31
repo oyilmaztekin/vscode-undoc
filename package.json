@@ -9,7 +9,7 @@
         "document-generator",
         "undocumented-functions"
     ],
-    "version": "2.0.6",
+    "version": "2.0.7",
     "publisher": "yilmaztekinozer",
     "repository": "https://github.com/oyilmaztekin/vscode-undoc",
     "icon": "icon.png",
@@ -23,16 +23,16 @@
     ],
     "main": "./extension",
     "activationEvents": [
-		"onCommand:extension.createDocsTemplate"
-	],
-	"contributes": {
-		"commands": [
-			{
-				"command": "extension.createDocsTemplate",
+        "onCommand:extension.createDocsTemplate"
+    ],
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.createDocsTemplate",
                 "title": "Create Docs"
-			}
-		]
-	},
+            }
+        ]
+    },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "node ./node_modules/vscode/bin/test"
