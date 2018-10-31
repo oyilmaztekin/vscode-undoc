@@ -8,7 +8,7 @@ An documentation generator for JavaScript functions and class methods. It detect
 `CMD + Shift + P -> undoc`
 
 #### React Example 
-![react-example](https://github.com/oyilmaztekin/vscode-undoc/blob/master/assets/react-example.gif)
+![react-example](/assets/flow-example.gif)
 
 #### Flow Example 
 ![flow-example](https://github.com/oyilmaztekin/vscode-undoc/blob/master/assets/flow-example.gif)
