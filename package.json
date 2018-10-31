@@ -2,7 +2,7 @@
     "name": "undoc",
     "displayName": "undoc",
     "description": "A package that generates documantation for undocumented functions and class methods.",
-    "version": "1.0.0",
+    "version": "1.0.7",
     "publisher": "yilmaztekinozer",
     "repository": "https://github.com/oyilmaztekin/vscode-undoc",
     "engines": {
