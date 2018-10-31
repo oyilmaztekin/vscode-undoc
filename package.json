@@ -21,18 +21,18 @@
         "Snippets",
         "Other"
     ],
-    "activationEvents": [
-        "onCommand:extension.undoc"
-    ],
     "main": "./extension",
-    "contributes": {
-        "commands": [
-            {
-                "command": "extension.undoc",
-                "title": "undoc"
-            }
-        ]
-    },
+    "activationEvents": [
+		"onCommand:extension.createDocsTemplate"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.createDocsTemplate",
+                "title": "Create Docs"
+			}
+		]
+	},
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "node ./node_modules/vscode/bin/test"

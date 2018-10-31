@@ -5,15 +5,16 @@ const Stage = require('./lib/astStages').AstStages
 
 const stages = new Stage()
 function activate(context) {
-    const activeFilePath = vscode.window.activeTextEditor.document.uri.fsPath
+
+    let disposable = vscode.commands.registerCommand('extension.createDocsTemplate', function () {
+        const activeFilePath = vscode.window.activeTextEditor.document.uri.fsPath
     
-    const parsedFile = stages.parseToAst(activeFilePath)
-    const transformedAst = stages.transformToAst(parsedFile)
-    const generatedCode = stages.generateCode(transformedAst)
-    
-    stages.replaceFile(activeFilePath, generatedCode)
-    
-    let disposable = vscode.commands.registerCommand('extension.undoc', function () {
+        const parsedFile = stages.parseToAst(activeFilePath)
+        const transformedAst = stages.transformToAst(parsedFile)
+        const generatedCode = stages.generateCode(transformedAst)
+        
+        stages.replaceFile(activeFilePath, generatedCode)
+        
         // Display a message box to the user
         vscode.window.showInformationMessage('documents are successfully generated');
     });
