@@ -24,11 +24,8 @@
  3. Presets of **Flow**
  4. States ( only initialized in the constructor )
 
-### Contribution
-
-Feel free to open issues and PRs. You can look [here](https://github.com/oyilmaztekin/vscode-undoc/blob/master/CONTRIBUTING.md) for more details.
-
 ## Contribution
+Feel free to open issues and PRs. You can look [here](https://github.com/oyilmaztekin/vscode-undoc/blob/master/CONTRIBUTING.md) for more details.
 
 1. Fork it (https://github.com/oyilmaztekin/vscode-undoc/fork)
 2. Create your branch (`git checkout -b fix/issue-id`)
