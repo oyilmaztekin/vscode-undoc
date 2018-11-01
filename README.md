@@ -34,7 +34,7 @@ Feel free to open issues and PRs. You can look [here](https://github.com/oyilmaz
 5. Create a new Pull Request
 
 ##### TODO
-1. Create doc with selecting function or method
+1. Cursor Interaction
 2. Currying function
 3. PropTypes
 
