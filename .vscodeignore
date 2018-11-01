@@ -5,3 +5,6 @@ test/**
 jsconfig.json
 vsc-extension-quickstart.md
 .eslintrc.json
+CHANGELOG.md
+CONTRIBUTING.md
+ISSUES.md
