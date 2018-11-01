@@ -8,3 +8,5 @@ vsc-extension-quickstart.md
 CHANGELOG.md
 CONTRIBUTING.md
 ISSUES.md
+PULL_REQUEST_TEMPLATE.md
+.github/**
