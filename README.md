@@ -26,14 +26,14 @@
 
 ### Contribution
 
-Feel free to open issues and PRs. You can look [here](https://github.com/oyilmaztekin/vscode-undoc/blob/master/CONTRIBUTING.md) for helper documentations.
+Feel free to open issues and PRs. You can look [here](https://github.com/oyilmaztekin/vscode-undoc/blob/master/CONTRIBUTING.md) for more details.
 
 ## Contribution
 
 1. Fork it (https://github.com/oyilmaztekin/vscode-undoc/fork)
 2. Create your branch (`git checkout -b fix/issue-id`)
 3. Commit your changes (`git commit -am 'Fixed something...'`)
-4. Push to the branch (`git push origin fix/issue-id`)
+4. Push the branch (`git push origin fix/issue-id`)
 5. Create a new Pull Request
 
 ##### TODO
