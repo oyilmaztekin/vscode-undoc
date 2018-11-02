@@ -9,7 +9,7 @@
 `CMD + Shift + P -> Create Docs`
 
 ## Install
-[undoc](https://marketplace.visualstudio.com/items?itemName=undoc.vscode-undoc)
+[undoc](https://marketplace.visualstudio.com/items?itemName=undoc.undoc)
 
 #### React Example
 ![react-example](/assets/react-example.gif)
