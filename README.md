@@ -1,6 +1,6 @@
 <p align="center"><img src='icon.png' width="200"></p>
 <h2 align="center">vscode-undoc</h2>
-<p align="center">An documentation generator for JavaScript functions and class methods. It detects undocumented functions and class methods in your Javascript / Flow / React file and creates a documentation template above the function or method.</p>
+<p align="center">A document generator for functions and class methods. It detects undocumented functions and class methods in your Javascript / Flow / React code and creates document template.</p>
 
 ## Usage
 
@@ -9,7 +9,7 @@
 `CMD + Shift + P -> Create Docs`
 
 ## Install
-[undoc](https://marketplace.visualstudio.com/items?itemName=yilmaztekinozer.undoc)
+[undoc](https://marketplace.visualstudio.com/items?itemName=undoc.vscode-undoc)
 
 #### React Example
 ![react-example](/assets/react-example.gif)
