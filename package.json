@@ -10,7 +10,7 @@
         "undocumented-functions"
     ],
     "version": "0.0.10",
-    "publisher": "yilmaztekinozer",
+    "publisher": "undoc",
     "repository": "https://github.com/oyilmaztekin/vscode-undoc",
     "icon": "icon.png",
     "engines": {
