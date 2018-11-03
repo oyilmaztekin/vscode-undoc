@@ -9,6 +9,8 @@ const fs = require('fs')
 suite("AST Stages", function() {
   let fnParser = sinon.spy(AstStages.prototype, 'parseToAst')
   let fnGenerate = sinon.spy(AstStages.prototype, 'generateCode')
+  let fnReplace = sinon.spy(AstStages.prototype, 'replaceFile')
+
   const reactFilePath = './test/mockData/reactCodeMock.js'
   const parsedFile = fnParser(reactFilePath)
   const returnedAST = require('./mockData/reactCodeASTMock').reactFileAST
@@ -107,6 +109,56 @@ suite("AST Stages", function() {
 
         test("it should be a valid code", () => {
           assert.deepEqual(fnGenerate(parsedFile), generatedCode)
+        })
+
+        test("it should be the same generated code and source code ", () => {
+          expect(JSON.stringify(generatedCode).code).to.be(returnedCode)
+        })
+      })
+    })
+
+    suite("Replace File", () => {
+      suite("given parameter to the replacer is testing", () => {
+        test("it should be defined", function() {
+          expect(fnReplace).to.be.a('function');
+
+        });
+        test("it should throw error if parameters aren't valid", () => {
+          expect(fnReplace).withArgs(3,5).to.throwException();
+          expect(fnReplace).withArgs(3,{}).to.throwException();
+          expect(fnReplace).withArgs().to.throwException();
+        })
+
+        test("it should be a valid param Object", () => {
+          expect(fnReplace).withArgs(reactFilePath, generatedCode).to.not.throwException();
+        })
+
+      })
+      suite("Returned values are testing...", () => {
+        test("it should be an object", () => {
+          expect(fnReplace(reactFilePath, generatedCode)).to.be.an('object');
+        })
+
+        test("it shouldn't be an empy object", () => {
+          expect(fnReplace(reactFilePath, generatedCode)).to.not.be.empty();
+        })
+
+        test("it should have property named file", () => {
+          expect(fnReplace(reactFilePath,generatedCode)).to.have.property('file');
+        })
+
+        test("it should have property named generatedCode", () => {
+          expect(fnReplace(reactFilePath,generatedCode)).to.have.property('generatedCode');
+        })
+
+
+        test("it should be a valid object", () => {
+          let returnedObj = {
+            "file": reactFilePath,
+            "generatedCode": generatedCode
+          }
+          assert.deepEqual(fnReplace(reactFilePath, generatedCode), returnedObj)
+          
         })
       })
     })
