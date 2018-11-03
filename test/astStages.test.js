@@ -13,6 +13,7 @@ suite("AST Stages", function() {
   const parsedFile = fnParser(reactFilePath)
   const returnedAST = require('./mockData/reactCodeASTMock').reactFileAST
   const returnedCode = fs.readFileSync(reactFilePath,'utf-8');
+  const generatedCode = require('./mockData/generatedCodeMock').generatedCode
 
     suite("Parser", () => {
         /**
@@ -73,7 +74,7 @@ suite("AST Stages", function() {
         })
     })
 
-    // FIXME: after code transform... leadcomment does not exist
+
     suite("Code Generation", () => {
       suite("given parameter to the generator is testing", () => {
         test("it should be defined", function() {
@@ -90,11 +91,23 @@ suite("AST Stages", function() {
           expect(fnGenerate).withArgs(parsedFile).to.not.throwException();
         })
 
-        test("it should be a valid code", () => {
-          expect(fnGenerate(parsedFile).code).to.be(returnedCode)
+      })
+      suite("Generated code object is testing...", () => {
+        test("it should be a string", () => {
+          expect(fnGenerate(parsedFile)).to.be.an('object');
         })
 
+        test("it should not be an empy object", () => {
+          expect(fnGenerate(parsedFile)).to.not.be.empty();
+        })
 
+        test("generated code should be a string", () => {
+          expect(fnGenerate(parsedFile).code).to.be.an('string');
+        })
+
+        test("it should be a valid code", () => {
+          assert.deepEqual(fnGenerate(parsedFile), generatedCode)
+        })
       })
     })
 
