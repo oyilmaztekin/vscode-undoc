@@ -90,9 +90,9 @@ suite("AST Stages", function() {
           expect(fnGenerate).withArgs(parsedFile).to.not.throwException();
         })
 
-        test("it should be a valid code", () => {
-          expect(fnGenerate(parsedFile).code).to.be(returnedCode)
-        })
+        // test("it should be a valid code", () => {
+        //   expect(fnGenerate(parsedFile).code).to.be(returnedCode)
+        // })
 
 
       })
