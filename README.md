@@ -38,5 +38,5 @@ Feel free to open issues and PRs. You can look [here](https://github.com/oyilmaz
 2. Currying functions
 
 ## Thanks
-![babel](https://commons.wikimedia.org/wiki/File:Babel_Logo.svg)
+![babel](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Babel_Logo.svg/512px-Babel_Logo.svg.png)
 * [babel](https://github.com/babel)
