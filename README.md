@@ -1,6 +1,6 @@
 <p align="center"><img src='https://github.com/oyilmaztekin/vscode-undoc/blob/dev/icon.png' width="200"></p>
 <h2 align="center">vscode-undoc</h2>
-<p align="center">A document generator for Function Expressions, Function Statements, Arrow Function Expressions and Class Definitions. It detects undocumented functions and class methods in your Javascript / Flow / React code. It collects passed parameters, return expressions, states for React code then creates document template just above the functions.</p>
+<p align="center">A document generator for Function Expressions, Function Statements, Arrow Function Expressions, and Class Definitions. It detects undocumented functions and class methods in your Javascript / Flow / React code. It collects passed parameters, return expressions, states for React code then it creates document template just above the functions.</p>
 
 ## Usage
 
