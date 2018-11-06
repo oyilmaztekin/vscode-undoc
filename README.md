@@ -34,10 +34,9 @@ Feel free to open issues and PRs. You can look [here](https://github.com/oyilmaz
 5. Create a new Pull Request
 
 ##### TODO
-1. Cursor Interaction
-2. Currying function
-3. PropTypes
+1. Cursor Interaction in the editor
+2. Currying functions
 
 ## Thanks
-
+![babel](https://commons.wikimedia.org/wiki/File:Babel_Logo.svg)
 * [babel](https://github.com/babel)
