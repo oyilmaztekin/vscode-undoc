@@ -3,7 +3,7 @@
 <p align="center">
  A document generator for Function Expressions, Function Statements, Arrow Function Expressions, and Class Definitions. 
 </p>
-<p align="center">It detects undocumented functions and class methods in your Javascript / Flow / React code at the compile stage. It collects passed parameters, return expressions, states for React code then it creates document template just above the functions.
+<p align="center">It detects undocumented functions and class methods in your Javascript / Flow / React source code on the AST nodes at the compile stage. It collects passed parameters, return expressions, states for React code then it creates document template just above the functions.
 </p>
 
 ## Usage
